@@ -5,5 +5,8 @@
 - Hello, World
 - If/else, loops, functions
 - Import & modules
+- Data structures
+- More Data Structures: Set, Dictionary
+- Exceptions
 ## Update
-- May, 2023
+- Jun, 2023
