@@ -8,4 +8,6 @@ def roman_to_int(roman_string):
             if counter < converter[i]:
                 counter *= -1
             counter += converter[i]
+        else:
+            return (0)
     return (counter)
