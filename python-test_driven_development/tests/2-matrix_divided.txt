@@ -1,0 +1,61 @@
+The ``2-matrix_divided`` module
+======================
+
+Using ``matrix_dividedr``
+-------------------
+
+    >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+Now use it:
+
+    >>> matrix_divided([[4, 3, 2],[3, 3, 2]], 3)
+    [[1.33, 1.0, 0.67], [1.0, 1.0, 0.67]]
+
+    >>> matrix_divided([[2],[1],[5]], 2)
+    [[1.0], [0.5], [2.5]]
+
+    >>> matrix_divided([[2],[1],[5]], 0)
+    Traceback (most recent call last):
+    ...
+    ZeroDivisionError: division by zero
+
+    >>> matrix_divided([[2],[1],[5]], )
+    Traceback (most recent call last):
+    ...
+    TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+    >>> matrix_divided([[2],[-1],[-5]], 5)
+    [[0.4], [-0.2], [-1.0]]
+
+    >>> matrix_divided([[2],[-1],[-5]],- 5)
+    [[-0.4], [0.2], [1.0]]
+
+    >>> matrix_divided([[2],[-1],[Nan]],- 5)
+    Traceback (most recent call last):
+    ...
+    NameError: name 'Nan' is not defined
+
+    >>> matrix_divided([[2],[-1],[Float('inf')]],- 5)
+    Traceback (most recent call last):
+    ...
+    NameError: name 'Float' is not defined
+
+    >>> matrix_divided([["ch"],[-1],['c']],-9)
+    Traceback (most recent call last):
+    ...
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+    >>> matrix_divided([[],[],[5]], 8)
+    Traceback (most recent call last):
+    ...
+    TypeError: Each row of the matrix must have the same size
+
+    >>> matrix_divided([[5, 6, 8],[4, 5],[5]], 8)
+    Traceback (most recent call last):
+    ...
+    TypeError: Each row of the matrix must have the same size
+
+    >>> matrix_divided([[2],[1],[5]], 'H')
+    Traceback (most recent call last):
+    ...
+    TypeError: div must be a number
