@@ -49,6 +49,7 @@ class Square:
         """Print square"""
         if self.size == 0:
             print()
+            return
         if self.position[1] > 0:
             for p in range(self.position[1]):
                 print()
