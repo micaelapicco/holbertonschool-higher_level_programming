@@ -1,0 +1,37 @@
+The ``5-text_indentation`` module
+======================
+
+Using ``text_indentation``
+-------------------
+    
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Now use it:
+
+    >>> text_indentation("Hol.ber?to:n")
+    Hol.
+    <BLANKLINE>
+    ber?
+    <BLANKLINE>
+    to:
+    <BLANKLINE>
+    n
+
+    >>> text_indentation("Hol.     .ber.     ton")
+    Hol.
+    <BLANKLINE>
+    .
+    <BLANKLINE>
+    ber.
+    <BLANKLINE>
+    ton
+
+    >>> text_indentation(21.4)
+    Traceback (most recent call last):
+    ...
+    TypeError: text must be a string
+
+    >>> text_indentation()
+    Traceback (most recent call last):
+    ...
+    TypeError: text_indentation() missing 1 required positional argument: 'text'
