@@ -31,6 +31,11 @@ class TestStringMethods(unittest.TestCase):
         result = max_integer([-2, 5, -21, 1])
         self.assertEqual(result, 5)
 
+    def test_negatives(self):
+        """one value negative and some positives"""
+        result = max_integer([5, -21, 1])
+        self.assertEqual(result, 5)
+
     def test_one(self):
         """one value"""
         result = max_integer([21])
@@ -40,6 +45,11 @@ class TestStringMethods(unittest.TestCase):
         """Empty list"""
         result = max_integer([])
         self.assertEqual(result, None)
+
+    def test_letter(self):
+        """Test passing a letter"""
+        with self.assertRaises(TypeError):
+            max_integer([1, 2, 'a'])
 
     if __name__ == "__main__":
         unittest.main()
