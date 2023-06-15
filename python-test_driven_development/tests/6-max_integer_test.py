@@ -38,8 +38,8 @@ class TestStringMethods(unittest.TestCase):
 
     def test_negatives(self):
         """one value positive and some negatives"""
-        result = max_integer([-52, -21, 1])
-        self.assertEqual(result, 1)
+        result = max_integer([-52, 21, -1])
+        self.assertEqual(result, 21)
 
     def test_one(self):
         """one value"""
