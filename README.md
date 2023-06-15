@@ -2,11 +2,15 @@
 
 - In this repository you will find tasks and projects from the second quarter of Holberton School (Cohort #20).
 ## Index proyects
+### Python
 - Hello, World
 - If/else, loops, functions
 - Import & modules
 - Data structures
 - More Data Structures: Set, Dictionary
 - Exceptions
+- Classes
+- Test driven development
+- More Classes and Objects
 ## Update
 - Jun, 2023
