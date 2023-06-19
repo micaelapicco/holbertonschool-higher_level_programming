@@ -1,0 +1,3 @@
+def copy_list(a_list):
+    new = copy.a_list
+    return (new)
