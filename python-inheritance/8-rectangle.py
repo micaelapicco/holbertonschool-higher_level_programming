@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""Base geometry empty area"""
+"""Base geometry inherit"""
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
+    """rectangle inherit base geometry"""
 
     def __init__(self, width, height):
         """width and height"""
