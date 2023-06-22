@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 '''
-5-text indentation - Module
+Task 5: Write a function that prints a text with 2 new lines
+after each of these characters: ., ? and :
 '''
 
 

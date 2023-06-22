@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Simple rectangle"""
+"""
+Task 7: Write a class Rectangle that defines a rectangle by:
+(based on 6-rectangle.py)
+"""
 
 
 class Rectangle:

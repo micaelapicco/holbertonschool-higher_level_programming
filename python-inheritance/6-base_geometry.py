@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""empty class"""
+"""
+Tasks 6: Write a class BaseGeometry (based on 5-base_geometry.py)
+"""
 
 
 class BaseGeometry:

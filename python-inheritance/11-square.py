@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""inherit from rectangle"""
+"""
+Task 11: Write a class Square that inherits from Rectangle 
+(9-rectangle.py). (task based on 10-square.py).
+"""
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 Rectangle = __import__('9-rectangle').Rectangle

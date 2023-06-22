@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-matrix divided Module
+Task 2: Write a function that divides all elements of a matrix.
 '''
 
 

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-0-add_integer Module
+Task 0: Write a function that adds 2 integers
 '''
 
 

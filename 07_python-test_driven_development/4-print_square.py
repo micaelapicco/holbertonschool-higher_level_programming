@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-4-print_squeare - Module
+Task 4: Write a function that prints a square with the character #.
 '''
 
 

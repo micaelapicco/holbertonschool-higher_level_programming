@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-3- say my name - Module
+Task 3: Write a function that prints My name is <first name> <last name>
 '''
 
 

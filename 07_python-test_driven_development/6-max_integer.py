@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Module to find the max integer in a list
+"""
+Task 6: Since the beginning you have been creating “Interactive tests”.
+For this exercise, you will add Unittests.
 """
 
 

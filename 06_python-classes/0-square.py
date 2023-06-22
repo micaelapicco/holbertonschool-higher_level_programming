@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Inicializate class Square """
+"""
+Task 0: Write an empty class Square that defines a square
+"""
 
 
 class Square:

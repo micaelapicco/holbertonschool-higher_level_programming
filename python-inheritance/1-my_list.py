@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" 1-my list Module"""
+"""
+Task 1: Write a class MyList that inherits from list
+"""
 
 
 class MyList(list):

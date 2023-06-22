@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Base geometry inherit"""
+"""
+Task 9: Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py). (task based on 8-rectangle.py)
+"""
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 

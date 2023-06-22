@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Class Square and size of square"""
+"""
+Task 3: Write a class Square that defines a square by: (based on 2-square.py)
+"""
 
 
 class Square:
