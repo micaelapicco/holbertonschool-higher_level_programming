@@ -9,4 +9,4 @@ for JSON serialization of an object
 
 def class_to_json(obj):
     """return dictonary for json seialization"""
-    return (obj.__dir__)
+    return (obj.__dict__)
