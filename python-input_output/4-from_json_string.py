@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Task 4:Write a function that returns an object
+Task 4: Write a function that returns an object
 (Python data structure) represented by a JSON string:
 """
 import json

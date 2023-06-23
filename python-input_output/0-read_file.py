@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Task 0 module: reads a text file and prints it using with statement
+Task 0: reads a text file and prints it using with statement
 """
 
 

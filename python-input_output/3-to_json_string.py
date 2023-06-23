@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Task 3 - Write a function that returns the
+Task 3: Write a function that returns the
 JSON representation of an object (string):
 """
 
