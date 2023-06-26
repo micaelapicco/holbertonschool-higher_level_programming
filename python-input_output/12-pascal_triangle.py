@@ -8,6 +8,8 @@ the Pascal’s triangle of n
 
 def pascal_triangle(n):
     """Return a last of list of int representing the Pascal Triangle"""
+    if n <= 0:
+        return []
     triangle = [[1]]
     for h in range(n - 1):
         new = []
