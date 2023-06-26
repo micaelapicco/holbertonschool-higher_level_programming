@@ -52,6 +52,6 @@ def y(self):
     return self.__y
 
 
-@x.setter
+@y.setter
 def y(self):
     self.__y = y
