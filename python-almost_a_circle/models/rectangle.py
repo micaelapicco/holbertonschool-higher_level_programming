@@ -78,8 +78,11 @@ class Rectangle(Base):
 
     def display(self):
         """print rectangle representation"""
-        for h in range(self.height):
-            print("#" * self.width)
+        if self.y > 0:
+            for y in range(self.y):
+                print()
+        for i in range(self.height):
+            print("{}{}".format(" " * self.x, "#" * self.width))
 
     def __str__(self):
         """string representation"""
