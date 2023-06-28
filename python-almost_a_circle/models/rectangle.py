@@ -88,3 +88,6 @@ class Rectangle(Base):
         """string representation"""
         return ("[Rectangle] ({}) {}/{} - {}/{}".format(
             self.id, self.x, self.y, self.width, self.height))
+
+    def update(self, *args):
+        

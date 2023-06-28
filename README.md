@@ -12,5 +12,8 @@
 - Classes
 - Test driven development
 - More Classes and Objects
+- Everything is object
+- Input/Output
+- Almost a circle
 ## Update
 - Jun, 2023
