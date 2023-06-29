@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-Task 1: empty class Base
+Task 1-14: empty class Base
 """
+
+import json
 
 
 class Base():
@@ -15,3 +17,10 @@ class Base():
             self.id = Base.__nb_objects
         else:
             self.id = id
+
+    def to_json_string(list_dictionaries):
+        """json representation of dictionaries"""
+        if list_dictionaries is None or list_dictionaries == 0:
+            return ([])
+        else:
+            return json.dumps(list_dictionaries)
