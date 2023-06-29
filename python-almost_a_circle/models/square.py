@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Task 9: write the class rectagle that inherits from Base
+Task 9: write the class square that inherits from rectangle
 """
 
 from models.rectangle import Rectangle
