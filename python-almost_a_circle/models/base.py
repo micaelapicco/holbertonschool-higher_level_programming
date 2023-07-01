@@ -4,6 +4,7 @@ Task 1-14: empty class Base
 """
 
 import json
+from os.path import exists
 
 
 class Base():
@@ -64,6 +65,7 @@ class Base():
             return []
         else:
             filename = f"{cls.__name__}.json"
-            with open(filename, 'r', encoding="utf-8") as f:
-                instances = cls.from_json_string(f.read())
-                return (cls.create(**instance) for instance in instances)
+            if exists(filename):
+                with open(filename, 'r', encoding="utf-8") as f:
+                    instances = cls.from_json_string(f.read())
+                    return (cls.create(**instance) for instance in instances)
